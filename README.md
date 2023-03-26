@@ -9,7 +9,7 @@ import { progressBar } from "https://deno.land/x/pgb/mod.ts";
 
 const value = 12;
 const maxValue = 20;
-const pb = progressBar({ value, maxValue });
+const pb = progressBar(value, maxValue);
 
 console.log(`[${pb}] ${(value / maxValue) * 100}%`);    // [######    ] 60%
 
