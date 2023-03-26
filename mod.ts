@@ -1,5 +1,5 @@
 /**
- * **pg** (**p**rogress **b**ar) - 
+ * **pgb** (**p**ro**g**ress **b**ar) - 
  * A simple Deno module helps you to make progress bar in text
  * 
  * @module

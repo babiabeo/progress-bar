@@ -1,11 +1,11 @@
-# pb
+# pgb
 
 A simple Deno module helps you to make progress bar in text
 
 ## Usage
 
 ```ts
-import { progressBar } from "https://deno.land/x/pb/mod.ts";
+import { progressBar } from "https://deno.land/x/pgb/mod.ts";
 
 const value = 12;
 const maxValue = 20;
@@ -18,7 +18,7 @@ console.log(`[${pb}] ${(value / maxValue) * 100}%`);    // [######    ] 60%
 or you can run:
 
 ```sh
-deno run https://deno.land/x/pb/example.ts
+deno run https://deno.land/x/pgb/example.ts
 ```
 
 ## Options
